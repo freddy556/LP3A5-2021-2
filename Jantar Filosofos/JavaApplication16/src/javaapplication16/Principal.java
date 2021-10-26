@@ -45,7 +45,7 @@ public class Principal {
         }
         
         try{
-            Thread.sleep(10000);
+            Thread.sleep(15000);
             System.exit(0);
         } catch(InterruptedException ex){
             Logger.getLogger(Principal.class.getName()).log(Level.SEVERE, null, ex);
